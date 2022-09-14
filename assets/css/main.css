@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+section {
+  margin-top: 132px;
+}
+
+.navbar .container-fluid .navbar-brand,
+.navbar .container-fluid .navbar-nav .nav-item {
+  margin-right: 38px;
+}
+.navbar .container-fluid .navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2389DA;
+  font-family: "Playfair Display", serif;
+}
+.navbar .container-fluid .navbar-nav .nav-item {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .container-fluid .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  color: #212121;
+}
+.navbar .container-fluid .navbar-nav .nav-item .nav-link.active {
+  color: #2389DA;
+  font-weight: 500;
+}
+.navbar .container-fluid .right {
+  color: #212121;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .container-fluid .right .d-flex:first-child {
+  margin-right: 38px;
+}
+.navbar .container-fluid .right .d-flex span {
+  margin-right: 8px;
+}
+
+#header {
+  margin-top: 100px;
+}
+#header .row .col-6 .big-text {
+  font-family: "Playfair Display", serif;
+  font-size: 76px;
+  font-weight: 500;
+  color: #2389DA;
+}
+#header .row .col-6 .btn-header {
+  margin-top: 51px;
+  position: relative;
+  margin-left: 40px;
+}
+#header .row .col-6 .btn-header span {
+  position: absolute;
+  left: -45px;
+  top: -10px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 29px 35px;
+  font-size: 40px;
+  color: #2389DA;
+  box-shadow: -1px 1px 24px rgba(0, 0, 0, 0.08);
+}
+#header .row .col-6 .btn-header .btn-reservation {
+  padding: 18px 79px 24px;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  background-color: #2389DA;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+#header .row .col-6 .btn-header .btn-reservation:hover {
+  background: none;
+  border: 1px solid #2389DA;
+  color: #2389DA;
+}
+#header .row .col-6 .header-img {
+  width: 100%;
+}
+#header .brands-group {
+  margin-top: 86px;
+}
+#header .brands-group img {
+  margin-right: 100px;
+  filter: contrast(0);
+}
+
+#about-us .row .small-text {
+  font-family: "Poppins", sans-serif;
+  color: #2389DA;
+  font-size: 20px;
+}
+#about-us .row .small-text::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 124px;
+  height: 2px;
+  background-color: #2389DA;
+  top: -5px;
+  margin-right: 16px;
+}
+#about-us .row .big-text {
+  margin: -20px 0 36px;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  font-weight: 400;
+}
+#about-us .row .description-text {
+  color: #7E7E7E;
+  margin-top: 36px;
+}
+#about-us .row img {
+  width: 100%;
+}
+
+#best-choice .small-text {
+  font-family: "Poppins", sans-serif;
+  color: #2389DA;
+  font-size: 20px;
+}
+#best-choice .small-text::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 124px;
+  height: 2px;
+  background-color: #2389DA;
+  top: -5px;
+  margin-right: 16px;
+}
+#best-choice .big-text {
+  margin: -20px 0 36px;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  font-weight: 400;
+}
+#best-choice .description-text {
+  color: #7E7E7E;
+  margin: -30px 0 36px;
+}
+#best-choice .row .card .card-body {
+  padding: 12px 0 0 0;
+}
+#best-choice .row .card .card-body .card-title {
+  font-size: 24px;
+}
+#best-choice .row .card .card-body .price-text {
+  font-weight: 500;
+  margin-left: 24px;
+  font-size: 24px;
+  color: #2389DA;
+}
+#best-choice .row .card .card-body .card-description {
+  color: #7E7E7E;
+}
+#best-choice .row .card .card-body .btn-reservation {
+  border: 1px solid #2389DA;
+  color: #7E7E7E;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+#best-choice .row .card .card-body .btn-reservation span {
+  position: relative;
+  top: 5px;
+  color: #2389DA;
+  transition: all 0.3s ease;
+}
+#best-choice .row .card .card-body .btn-reservation:hover {
+  background-color: #2389DA;
+  color: #fff;
+}
+#best-choice .row .card .card-body .btn-reservation:hover span {
+  color: #fff;
+}
+#best-choice .arrow-slider {
+  display: flex;
+  justify-content: center;
+  margin: 36px auto 0;
+}
+#best-choice .arrow-slider span {
+  color: #2389DA;
+  border: 2px solid #2389DA;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#best-choice .arrow-slider span:first-child {
+  margin-right: 36px;
+}
+#best-choice .arrow-slider span:hover {
+  color: #fff;
+  background-color: #2389DA;
+}
+
+#our-value .small-text {
+  font-family: "Poppins", sans-serif;
+  color: #2389DA;
+  font-size: 20px;
+}
+#our-value .small-text::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 124px;
+  height: 2px;
+  background-color: #2389DA;
+  top: -5px;
+  margin-right: 16px;
+}
+#our-value .big-text {
+  margin: -20px 0 36px;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  font-weight: 400;
+}
+#our-value .description-text {
+  color: #7E7E7E;
+  margin: -30px 0 36px;
+}
+#our-value .accordion .accordion-item .accordion-button:focus {
+  background: none;
+}
+#our-value .accordion .accordion-item .accordion-button::after {
+  content: "";
+  display: none;
+}
+#our-value .accordion .accordion-item .accordion-button .left {
+  font-weight: 500;
+}
+#our-value .accordion .accordion-item .accordion-button .left span {
+  position: relative;
+  top: 5px;
+  background-color: rgba(35, 137, 218, 0.1);
+  color: #2389DA;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+#our-value .accordion .accordion-item .accordion-button span {
+  background-color: rgba(35, 137, 218, 0.1);
+  color: #2389DA;
+  transition: all 0.3s ease;
+}
+#our-value .accordion .accordion-item .accordion-button span.rotate {
+  transform: rotate(180deg);
+}
+
+#testimonial .small-text {
+  font-family: "Poppins", sans-serif;
+  color: #2389DA;
+  font-size: 20px;
+}
+#testimonial .small-text::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 124px;
+  height: 2px;
+  background-color: #2389DA;
+  top: -5px;
+  margin-right: 16px;
+}
+#testimonial .big-text {
+  margin: -20px 0 36px;
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  font-weight: 400;
+}
+#testimonial .description-text {
+  color: #7E7E7E;
+  margin: -30px 0 36px;
+}
+#testimonial .row .col-6 .card {
+  box-shadow: 0px 10px 24px -8px rgba(33, 33, 33, 0.12);
+  padding: 40px;
+  border-radius: 24px;
+}
+#testimonial .row .col-6 .card:first-child {
+  margin-bottom: 32px;
+}
+#testimonial .row .col-6 .card .profile-users img {
+  width: 50px;
+  height: 50px;
+}
+#testimonial .row .col-6 .card .profile-users div {
+  margin-left: 14px;
+}
+#testimonial .row .col-6 .card .profile-users div h5 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2389DA;
+}
+#testimonial .row .col-6 .card .profile-users div p {
+  margin-top: -7px;
+}
+#testimonial .row .col-6 .card .testimonial-text {
+  color: #7E7E7E;
+}/*# sourceMappingURL=main.css.map */
